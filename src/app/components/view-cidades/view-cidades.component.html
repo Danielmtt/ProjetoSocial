@@ -4,7 +4,9 @@
       {{location}}
     </h2>
     <h3 *ngFor='let servico of services'>
-      {{servico}}
+      <mat-chip-list aria-label="Seleção de serviços">
+        <mat-chip>{{servico}}</mat-chip>
+      </mat-chip-list>
     </h3>
   </div>
 </mat-card>
