@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
 import { ViewCidadesComponent } from './components/view-cidades/view-cidades.component';
 import { PageCidadesComponent } from './components/page-cidades/page-cidades.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { PageCidadesComponent } from './components/page-cidades/page-cidades.com
     AppComponent,
     BannerPrincipalComponent,
     ViewCidadesComponent,
-    PageCidadesComponent
+    PageCidadesComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
