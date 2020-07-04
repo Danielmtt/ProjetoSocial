@@ -6,7 +6,10 @@
       <span id="name">{{name}}</span>
       <span>{{location}}</span>
       <p>Serviços:</p>
-      <span class="servicos">{{services}} </span>
+      <span *ngFor='let servico of services' class="servicos">
+        {{servico}}
+
+      </span>
       <span class="redes-sociais">
         <img class="icones" src="../../../assets/facebook.png" alt="facebook">
         <img class="icones" src="../../../assets/whats.png" alt="whatsapp">

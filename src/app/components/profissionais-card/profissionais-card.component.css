@@ -26,7 +26,7 @@ p {
 }
 
 .card {
-  width: 90%;
+  width: 95%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -36,17 +36,19 @@ p {
   background-color: #89aae670;
 }
 
+h2{
+  font-size: 20pt;
+}
+
 #container {
-  width: 90%;
+  width: 95%;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 60px auto;
 }
 
-.servicos {
-  margin-bottom: 20px;
-}
+
 
 .redes-sociais {
   display: flex;
@@ -59,4 +61,5 @@ p {
 .icones {
   width: 30px;
   height: auto;
+  margin-top: 20px;
 }
