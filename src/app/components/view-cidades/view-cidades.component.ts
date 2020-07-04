@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Profissional } from '../../profissional';
+import { MatCardModule } from '@angular/material/card';
 
 
 @Component({
@@ -14,7 +15,7 @@ export class ViewCidadesComponent implements OnInit {
     location: string;
     name: string;
     photo: string;
-    services: string[];
+    services: string;
     zodiac: string;
 
   constructor() { }
@@ -22,6 +23,7 @@ export class ViewCidadesComponent implements OnInit {
   ngOnInit(): void {
     if(this.cidade != null){
       this.location = this.cidade.location;
+      this.services = this.cidade.services;
     }
   }
 
