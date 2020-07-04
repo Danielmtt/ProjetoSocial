@@ -10,7 +10,6 @@ export class ProfissionaisCardComponent implements OnInit {
 
   @Input() profissional: Profissional
 
-  imgUrl: string;
   location: string;
   name: string;
   photo: string;
@@ -19,6 +18,8 @@ export class ProfissionaisCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(this.profissional != null){
+      this.photo = this.profissional.photo;
+    }
   }
-
 }

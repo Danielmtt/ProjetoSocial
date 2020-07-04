@@ -12,9 +12,11 @@ export class ProfissionaisPageComponent implements OnInit {
 
   listaProfissionais: Profissional[];
 
-  constructor(private imovelApi:ProfissionaisApiService) { }
+  constructor(private profissionalApi:ProfissionaisApiService) { }
 
   ngOnInit(): void {
+    this.profissionalApi.List().subscribe((lista)=>{
+      this.listaProfissionais = lista;
+    })
   }
-
 }
