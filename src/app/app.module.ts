@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSelectModule } from '@angular/material/select';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatCardModule } from '@angular/material/card';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
@@ -28,7 +29,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     PageCidadesComponent,
     ProfissionaisCardComponent,
     ProfissionaisPageComponent,
-    RodapeComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +37,8 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     BrowserAnimationsModule,
     HttpClientModule,
     MatSelectModule,
-    MatChipsModule
+    MatChipsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

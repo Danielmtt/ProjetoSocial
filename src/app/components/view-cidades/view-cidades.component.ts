@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Profissional } from '../../profissional';
+import { MatCardModule } from '@angular/material/card';
 
 
 @Component({
