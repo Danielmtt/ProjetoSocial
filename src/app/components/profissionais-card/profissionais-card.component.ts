@@ -20,6 +20,9 @@ export class ProfissionaisCardComponent implements OnInit {
   ngOnInit(): void {
     if(this.profissional != null){
       this.photo = this.profissional.photo;
+      this.name = this.profissional.name;
+      this.location = this.profissional.location;
+      this.services = this.profissional.services;
     }
   }
 }
