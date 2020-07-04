@@ -1,8 +1,8 @@
 <mat-card>
+  <h2>
+    {{location}}
+  </h2>
   <div class="cidades-local">
-    <h2>
-      {{location}}
-    </h2>
     <h3 *ngFor='let servico of services'>
       <mat-chip-list aria-label="Seleção de serviços">
         <mat-chip>{{servico}}</mat-chip>
