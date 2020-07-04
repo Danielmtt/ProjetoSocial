@@ -10,7 +10,7 @@ import { ProfissionaisApiService } from 'src/app/services/profissionais-api.serv
 export class ProfissionaisPageComponent implements OnInit {
 
 
-  listaProfissionais: ProfissionaisModel[];
+  listaProfissionais: Profissional[];
 
   constructor(private imovelApi:ProfissionaisApiService) { }
 
