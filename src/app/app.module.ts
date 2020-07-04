@@ -9,12 +9,16 @@ import { MatChipsModule } from '@angular/material/chips';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
+import { ViewCidadesComponent } from './components/view-cidades/view-cidades.component';
+import { PageCidadesComponent } from './components/page-cidades/page-cidades.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerPrincipalComponent
+    BannerPrincipalComponent,
+    ViewCidadesComponent,
+    PageCidadesComponent
   ],
   imports: [
     BrowserModule,
