@@ -9,12 +9,18 @@ import { MatChipsModule } from '@angular/material/chips';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
+import { ProfissionaisComponent } from './components/profissionais/profissionais.component';
+import { ProfissionaisCardComponent } from './components/profissionais-card/profissionais-card.component';
+import { ProfissionaisPageComponent } from './components/profissionais-page/profissionais-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerPrincipalComponent
+    BannerPrincipalComponent,
+    ProfissionaisComponent,
+    ProfissionaisCardComponent,
+    ProfissionaisPageComponent
   ],
   imports: [
     BrowserModule,
