@@ -8,11 +8,13 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatChipsModule } from '@angular/material/chips';
 
 import { HttpClientModule } from '@angular/common/http';
+import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BannerPrincipalComponent
   ],
   imports: [
     BrowserModule,
