@@ -11,6 +11,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
 import { ViewCidadesComponent } from './components/view-cidades/view-cidades.component';
 import { PageCidadesComponent } from './components/page-cidades/page-cidades.component';
+
+import { ProfissionaisCardComponent } from './components/profissionais-card/profissionais-card.component';
+import { ProfissionaisPageComponent } from './components/profissionais-page/profissionais-page.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
 
 
@@ -20,7 +23,9 @@ import { RodapeComponent } from './components/rodape/rodape.component';
     BannerPrincipalComponent,
     ViewCidadesComponent,
     PageCidadesComponent,
-    RodapeComponent
+    ProfissionaisCardComponent,
+    ProfissionaisPageComponent,
+    RodapeComponent,
   ],
   imports: [
     BrowserModule,
