@@ -15,7 +15,7 @@ export class ViewCidadesComponent implements OnInit {
     location: string;
     name: string;
     photo: string;
-    services: string[];
+    services: string;
     zodiac: string;
 
   constructor() { }
@@ -23,6 +23,7 @@ export class ViewCidadesComponent implements OnInit {
   ngOnInit(): void {
     if(this.cidade != null){
       this.location = this.cidade.location;
+      this.services = this.cidade.services;
     }
   }
 
