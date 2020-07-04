@@ -9,12 +9,14 @@ import { MatChipsModule } from '@angular/material/chips';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BannerPrincipalComponent } from './components/banner-principal/banner-principal.component';
+import { RodapeComponent } from './components/rodape/rodape.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BannerPrincipalComponent
+    BannerPrincipalComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
