@@ -1,8 +1,8 @@
 #perfil {
   width: 80%;
   border-radius: 50%;
-  margin-top: 20px ;
-  margin-bottom: 20px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -31,23 +31,24 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: #89aae670;
 }
 
 #container {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   width: 90%;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 60px auto;
-  border-radius: 10px;
 }
 
 .servicos {
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
 }
 
-.redes-sociais{
+.redes-sociais {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -55,7 +56,7 @@ p {
   margin-bottom: 20px;
 }
 
-.icones{
+.icones {
   width: 30px;
   height: auto;
 }
